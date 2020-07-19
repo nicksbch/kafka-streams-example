@@ -1,0 +1,9 @@
+{"namespace": "com.nicksbch.app.avro",
+ "type": "record",
+ "name": "Product",
+ "fields": [
+     {"name": "id", "type": "long"},
+     {"name": "name", "type": "string"},
+     {"name": "price", "type": "double"}
+ ]
+}

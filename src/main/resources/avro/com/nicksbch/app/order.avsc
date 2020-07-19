@@ -1,0 +1,10 @@
+{"namespace": "com.nicksbch.app.avro",
+ "type": "record",
+ "name": "Order",
+ "fields": [
+     {"name": "id", "type": "long"},
+     {"name": "product_id", "type": "long"},
+     {"name": "customer_id", "type": "long"},
+     {"name": "quantity", "type": "int"}
+ ]
+}

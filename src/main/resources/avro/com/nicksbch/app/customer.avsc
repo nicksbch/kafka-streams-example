@@ -1,0 +1,9 @@
+{"namespace": "com.nicksbch.app.avro",
+ "type": "record",
+ "name": "Customer",
+ "fields": [
+     {"name": "id", "type": "long"},
+     {"name": "name", "type": "string"},
+     {"name": "since",  "type": "long", "logicalType": "timestamp-millis"}
+ ]
+}
